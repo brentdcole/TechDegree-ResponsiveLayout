@@ -2,19 +2,80 @@
   box-sizing: border-box;
 }
 
-
-
-
-
-
-/* @media (min-width 320px) {
-
+body {
+  margin: 0;
+  font-family: serif;
+  line-height: 1.5;
 }
 
+/* .site-contain {
+  overflow: hidden;
+} */
+
+p {
+  padding: 1em;
+  font-size: 1.29em;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+  display: block;
+  font-size: 2.5em;
+}
+
+ul.nav {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav, li {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.center, .present {
+  text-align: center;
+}
+
+footer {
+  display: block;
+}
+
+footer, .contact, .present, header{
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
+  margin: 0;
+}
+
+/* .clearfixafter {
+  content  ;
+  display table;
+  clear both;
+} */
+
+/*
 @media (min-width 768px) {
 
 }
 
 @media (min-width 1024px) {
 
-} */
+}
+*/
