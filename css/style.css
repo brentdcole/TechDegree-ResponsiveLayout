@@ -4,30 +4,46 @@
 
 body {
   margin: 0;
-  font-family: serif;
+  font-family: sans-serif;
   line-height: 1.5;
 }
 
-/* .site-contain {
-  overflow: hidden;
-} */
+.present-color {
+  color: rgb(145, 144, 144);
+  padding-bottom: 2em;
+}
 
 p {
-  padding: 1em;
-  font-size: 1.29em;
+  padding: .5em 1em .5em 1em;
+  font-size: 1em;
   text-align: center;
+  margin-top: -1em;
+}
+
+.pro-pic {
+  max-width: 75%;
 }
 
 img {
   max-width: 100%;
   padding: 1em;
+  text-align: center;
+}
+
+div {
+  margin-top: .75em;
+  margin-bottom: 1em;
 }
 
 a {
   text-decoration: none;
 }
 
-h1 {
+h4 {
+  font-weight: bolder;
+}
+
+h3, h4 {
   text-align: center;
 }
 
@@ -37,31 +53,69 @@ h1 {
   font-size: 2.5em;
 }
 
+ul {
+  padding: 0;
+}
+
 ul.nav {
   padding: 0;
   margin: 0;
   overflow: hidden;
 }
 
+ul.present-color {
+  margin: 0;
+  padding: 0;
+}
+
 .nav, li {
   display: block;
   text-decoration: none;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .center, .present {
   text-align: center;
 }
 
-footer {
-  display: block;
+.present-bio {
+  margin-top: -1.5em;
+}
+
+#portfolio {
+  margin-top: 2.5em;
+}
+
+/* .looks-good {
+  margin-top: .25em;
+  margin-bottom: .1em;
+} */
+
+#flo-left {
+  float: left;
+  margin-left: 1em;
+}
+
+#flo-right {
+  float: right;
+  margin-right: 1em;
+}
+
+#flo-left, #flo-right {
+  padding-bottom: 1.5em;
+  padding-top: .5em;
+  font-weight: bold;
+}
+.footer-nav {
+  border-top: solid 1px;
 }
 
 footer, .contact, .present, header{
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(247, 247, 247);
   overflow: hidden;
   margin: 0;
+  padding: 0;
 }
 
 /* .clearfixafter {
